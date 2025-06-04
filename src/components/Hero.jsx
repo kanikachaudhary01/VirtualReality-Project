@@ -5,9 +5,9 @@ import video2 from "../assets/video2.mp4";
 function Hero() {
     return (
         <div className="">
-            <div className="text-center text-6xl mt-8 tracking-wide ">
+            <div className="text-center text-6xl mt-8 tracking-wide whitespace-nowrap">
                 VReality build tools {""}
-                <span className="bg-gradient-to-r from-orange-500 to-orange-800  bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-orange-500 to-orange-800  bg-clip-text text-transparent ">
                     for developers
                 </span>
             </div>
