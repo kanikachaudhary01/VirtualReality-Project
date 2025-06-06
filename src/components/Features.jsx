@@ -11,7 +11,7 @@ function Features() {
     </div>
     <div className='  grid grid-cols-3 px-10  mt-15 gap-20'>
         {FeatureCard.map((feature,index)=>(
-           <div  key={index} className='flex flex-col gap-10 max-w-sm'> 
+           <div  key={index} className='flex flex-col  gap-10 max-w-sm'> 
           <div className='flex items-center gap-10 '>
              <div className='text-orange-500 text-[2rem]'>{feature.icon}</div>
            <div className='text-xl'>{feature.text}</div>
