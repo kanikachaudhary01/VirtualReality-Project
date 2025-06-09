@@ -6,12 +6,12 @@ import { CheckCircle } from 'lucide-react'
 function Workflow() {
   return (
     <>
-    <div className='mt-20 '>
+    <div className='mt-20 mx-20'>
         <div className='text-5xl tracking-wider text-center '>
             Accelerate your {""}
             <span className='bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent'>coding workflow</span>
         </div>
-        <div className='grid grid-cols-2 mt-10'>
+        <div className='grid grid-cols-2 mt-10 '>
             <div className=' p-2 ml-2' >
                 <img className='h-150' src={codeImg} alt="" />
             </div>

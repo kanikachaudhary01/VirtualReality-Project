@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Workflow from '../components/Workflow'
 import Pricing from '../components/Pricing'
+import Testimonals from '../components/Testimonals'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Features/>
       <Workflow/>
       <Pricing/>
+      <Testimonals/>
     </div>
   )
 }
