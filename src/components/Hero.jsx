@@ -5,10 +5,11 @@ import video2 from "../assets/video2.mp4";
 function Hero() {
     return (
         <div className="">
-            <div className="text-center text-6xl mt-8 tracking-wide whitespace-nowrap">
+            <div className="text-center text-6xl mt-8 tracking-wide ">
                 VReality build tools {""}
-                <span className="bg-gradient-to-r from-orange-500 to-orange-800  bg-clip-text text-transparent ">
-                    for developers
+                <span className="bg-gradient-to-r from-orange-500 to-orange-800  bg-clip-text text-transparent  ">
+                    for
+                    <span className="whitespace-nowrap"> developers</span>
                 </span>
             </div>
             <div className="text-center mt-8 text-xl text-gray-400 text-balance">
