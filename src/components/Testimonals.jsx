@@ -5,9 +5,9 @@ import TestCard from './TestCard'
 function Testimonals() {
   return (
     <>
-        <div className='mt-20 mx-20'>
-            <div className='tracking-wide text-4xl text-center'>What people are saying </div>
-            <div className='mt-15 grid grid-cols-3 gap-10 '>
+       <div className='mt-20 mx-20'>
+  <div className='tracking-wide text-4xl text-center'>What people are saying</div>
+  <div className='mt-15 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
                <TestCard
                text={"I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations."}
                heading={"John Doe"}

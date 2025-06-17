@@ -10,7 +10,7 @@ function Navbar() {
     };
     return (
         <>
-            <div className="sticky z-50 top-0 backdrop-blur-lg border-b border-neutral-700/80 ">
+            <div className="sticky z-50 top-0 backdrop-blur-lg border-b border-neutral-700/80  ">
                 <div className="flex justify-between items-center px-10 py-6">
                     <div className=" flex items-center gap-2">
                         <img
@@ -31,7 +31,7 @@ function Navbar() {
                             <div href="#">Testimonals</div>
 
                     </div>
-                    <div className="flex items-center gap-8">
+                    <div className="flex items-center gap-8 ">
                         <a href="#" className="py-2 px-8 border rounded-md">
                             Sign In
                         </a>
@@ -49,17 +49,7 @@ function Navbar() {
 
                      </div>
 
-                     {/* {DrawerOpen && (
-                        <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
-                            <ul>
-                                {navItems.map((item,index)=>(
-                                    <li key={index}>
-                                        <a href=""></a>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                     )} */}
+                     
                 </div>
             </div>
         </>
